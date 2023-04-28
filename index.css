@@ -8,7 +8,7 @@ body,html{
 body{
     background-image: url(./images/firewatch-8-1366768-wallpaper.png)  ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 h1{
