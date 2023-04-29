@@ -4,33 +4,38 @@
         <title>My Links</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="./index.css"/>
+        <!-- Include Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha512-Sm+gkt8WZmLsPpXLJmOgS1F9WJ97Iaa+xCzOovttxwLJ4WCCtYc08tOFJ1zJQ2q3q1iqNJcNOd+VbR5J0p5YPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <main>
-        <header>
-            <img src="./images/pfp.svg"/>
-            <h1> Steric's Links </h1>
-        </header>
-        <ul>
-            <li>
-                <a href="https://github.com/vaishnav-idk">
-                    <img src="./images/github.svg" alt="github" width="20" />
-                    Github</a>
-                
-            </li>
-            <li>
-                <a href="https://myanimelist.net/animelist/S_teric?status=7">
-                    <img src="./images/myanimelist.svg" alt="MAL account" width="20" />
-                    MAL List</a> 
-            </li>
-            <li>
-     <a href="mailto:tve22mca-2058@cet.ac.inc">
-        <img src="./images/email.svg" alt="email" width="20" />
-         Email Me</a> 
-</li>
+            <header>
+                <img src="./images/pfp.svg"/>
+                <h1> Steric's Links </h1>
+            </header>
             
-        </ul>
-        <p style="text-align:center;">   <a style="color:white; text-align:center; align-items:center; font-size:0.7em;" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">  Don't click</a></p>
+            <!-- Replace ul element with Bootstrap list-group element -->
+            <div class="list-group">
+                <a href="https://github.com/vaishnav-idk" class="list-group-item list-group-item-action" target="_blank">
+                    <img src="./images/github.svg" alt="github" width="20" />
+                    Github
+                </a>
+                <a href="https://myanimelist.net/animelist/S_teric?status=7" class="list-group-item list-group-item-action" target="_blank">
+                    <img src="./images/myanimelist.svg" alt="MAL account" width="20" />
+                    MAL List
+                </a> 
+                <a href="mailto:tve22mca-2058@cet.ac.inc" class="list-group-item list-group-item-action" target="_blank">
+                    <img src="./images/email.svg" alt="email" width="20" />
+                    Email Me
+                </a> 
+            </div>
+            
+            <p style="text-align:center;">
+                <a style="color:white; text-align:center; align-items:center; font-size:0.7em;" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">  Don't click</a>
+            </p>
         </main>
+        
+        <!-- Include Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js" integrity="sha512-BCRIJ1O4a4+CwVKs7oOY2s3CFic3dJ2GZfLGMZLb0rypEhltcRwCv+VY0t8q9Gqvo01xQvzfVyzfWnfPk51Mmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </body>
 </html>
