@@ -31,7 +31,7 @@ h1, ul > li {
 
 h1:hover, ul > li:hover {
   transform: scale(1.1);
-  box-shadow: aqua 1px 2px 16px 6px;
+  box-shadow: #00707c 1px 2px 16px 6px;
 }
 
 /* Make header and ul elements responsive */
