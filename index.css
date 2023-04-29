@@ -34,27 +34,27 @@ h1:hover, ul > li:hover {
   box-shadow: #00707c 1px 2px 16px 6px;
 }
 
-/* Make header and ul elements responsive */
 header > img {
   width: 10em;
   height: 10em;
   border-radius: 100px;
   border: 2px solid black;
-  box-shadow: aqua 1px 2px 16px 2px;
+  box-shadow: #5BEFFF 1px 2px 16px 2px;
   animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: aqua 1px 2px 16px 2px;
+    box-shadow: #5BEFFF 1px 2px 16px 2px;
   }
   50% {
-    box-shadow: aqua 1px 2px 16px 10px;
+    box-shadow: #5B9DFF 1px 2px 16px 10px;
   }
   100% {
-    box-shadow: aqua 1px 2px 16px 2px;
+    box-shadow: #5BFFBD 1px 2px 16px 2px;
   }
 }
+
 
 header > h1 {
   display:inline-block;
