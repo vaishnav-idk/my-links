@@ -8,9 +8,10 @@ body, html {
 
 body {
   background-image: url(./images/firewatch-8-1366768-wallpaper.png);
-  background-size: 100%;
+  background-size: contain;
   background-position: center ;
    background-repeat: no-repeat;
+  
 }
 
 h1 {
